@@ -25,6 +25,8 @@ conda install pyodbc
 conda install pytest pytest-flask
 ```
 
+For completeness, a `requirements.txt` file is also provided. It was generated with ` pip freeze > requirements.txt`
+
 ## Microsoft SQL Server Management Studio Login
 ![SQL_Server_Credentials.PNG](Files%2FSQL_Server_Credentials.PNG)
 
