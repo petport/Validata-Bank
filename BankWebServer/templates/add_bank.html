@@ -1,0 +1,13 @@
+<!-- add_bank.html -->
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.name.label }}<br>
+        {{ form.name(size=20) }}
+    </p>
+    <p>
+        {{ form.location.label }}<br>
+        {{ form.location(size=20) }}
+    </p>
+    <p>{{ form.submit() }}</p>
+</form>
